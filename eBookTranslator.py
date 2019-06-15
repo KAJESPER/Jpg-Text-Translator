@@ -47,9 +47,9 @@ def dw(boundingBox, linesCount, lineheight, tranContent,draw):
 for index in range(135,136):
     index_str = "%04d" % index
     # 替换成您的应用ID
-    appKey = "4055f164a1a78415"
+    appKey = "abcdefg"
     # 替换您的应用密钥
-    appSecret = "Jy57GwobUhK0goGzo82VCoR8JsSjO7xw"
+    appSecret = "123456789"
     # 参数部分
     f = open(r'pic/'+index_str+'.jpg', 'rb') # 二进制方式打开图文件
     q = base64.b64encode(f.read()) # 读取文件内容，转换为base64编码
